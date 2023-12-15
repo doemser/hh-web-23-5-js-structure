@@ -1,0 +1,24 @@
+:root {
+  --header-height: 75px;
+  --footer-height: 50px;
+
+  --dark: #282a36;
+  --medium: #44475a;
+  --light: #44475a;
+  --contrast-text: #f8f8f2;
+  --accent-1: #ff5555;
+  --accent-2: #50fa7b;
+}
+
+body {
+  background: var(--medium);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --dark: #acacac;
+    --medium: #b3b3ae;
+    --light: #f8f8f2;
+    --contrast-text: #282a36;
+  }
+}

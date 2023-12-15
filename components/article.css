@@ -1,0 +1,33 @@
+.article {
+  background: var(--light);
+  color: var(--contrast-text);
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 var(--contrast-text);
+}
+
+.article_headline {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  text-decoration-color: var(--accent-1);
+  text-decoration-thickness: 5px;
+}
+
+.article_paragraph {
+  margin: 15px;
+}
+
+.article_like {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  color: currentColor;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.article_like--active {
+  color: var(--accent-1);
+}

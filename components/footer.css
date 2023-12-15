@@ -1,0 +1,21 @@
+.footer {
+  background: var(--dark);
+  height: var(--footer-height);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--contrast-text);
+}
+
+.footer_paragraph_highlight {
+  color: var(--accent-1);
+}
+
+.footer_link {
+  color: var(--accent-2);
+  text-decoration: none;
+}
